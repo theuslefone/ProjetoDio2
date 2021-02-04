@@ -1,0 +1,53 @@
+/*Váriaveis*/
+:root
+{
+    --preto: #141414;
+    --Cinza: #afafaf;
+}
+/*Série cartaz*/
+.Principal
+{
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.50)100%), url(/img/capa-bojack.jpg);
+    background-size: cover; /*Div toda*/
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Principal .Container
+{
+    margin-left: 7%;
+}
+
+.Principal .NetflixSerie 
+{
+    display: flex;
+    align-items: center;
+    letter-spacing: 2pt;
+    color: var(--Cinza) ;
+}
+
+.Principal .Titulo
+{
+    margin-top: 2%;
+    font-size: 24pt;
+}
+
+.Principal .Descricao 
+{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 50%;
+}
+
+.Principal .Button
+{
+    border: 1px solid white;
+    padding: 1%;
+    color: black;
+    background-color: white;
+    border-radius: 4%;
+}
