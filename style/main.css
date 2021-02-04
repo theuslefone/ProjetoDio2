@@ -1,0 +1,10 @@
+* /*Regra*/
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Os itens não ultrapassam a borda da box.*/
+}
+header #Container 
+{
+    border: 1px solid black;
+}
