@@ -55,3 +55,12 @@ header nav a:hover
 {
     color: #afafaf;
 }
+
+.box-film
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50%;
+    width: 50%;
+    display: block;
+}
