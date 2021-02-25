@@ -1,1 +1,147 @@
-@media screen (max-width: 700px)
+@media screen and (min-width:501px)
+{
+    header .Container .Logo
+    {
+        width: 100px;
+        margin-right: 65%;
+    }
+    #menu
+    {
+        display: none;
+    }
+    .Principal
+    {
+    font-size: 20px;
+    height: 419px;
+    }
+    .Principal .Container .tituloelogo
+    {
+        margin-top: 100px;
+        width: 500px;
+    }
+
+    .Principal .Container .Descricao
+    {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+    }
+    .Principal .Container .ButtonPlay
+    {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 4%;
+    margin-bottom: 30px;
+    }
+    .Principal .Container .ButtonInformation
+    {
+    width: 150px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 4%;
+    margin-bottom: 30px; 
+    }
+
+}
+
+@media screen and (max-width: 500px)
+{
+    header .Container .Logo
+    {
+        width: 80px;
+        margin-right: 50%;
+    }
+    #menu
+    {
+        display: none;
+    }
+    .Principal
+    {
+    font-size: 20px;
+    height: 250px;
+    }
+    .Principal .Container .tituloelogo
+    {
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .Principal .Container .Descricao
+    {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 8pt;
+    }
+    .Principal .Container .ButtonPlay
+    {
+    width: 70px;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    border-radius: 4%;
+    margin-bottom: 30px;
+    }
+    .Principal .Container .ButtonInformation
+    {
+    width: 150px;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    border-radius: 4%;
+    margin-bottom: 30px; 
+    }
+
+    .carousel-films
+    {
+
+    }
+
+}
+
+@media screen and (min-width:801px)
+{
+    header .Container .Logo
+    {
+        width: 100px;
+    }
+
+    .Principal
+    {
+    font-size: 20px;
+    height: 600px;
+    }
+    .Principal .Container .tituloelogo
+    {
+        width: 500px;
+    }
+
+    .Principal .Container .Descricao
+    {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+    }
+    .Principal .Container .ButtonPlay
+    {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 4%;
+    margin-bottom: 30px;
+    }
+    .Principal .Container .ButtonInformation
+    {
+    width: 150px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 4%;
+    margin-bottom: 30px; 
+    }
+
+}
